@@ -5,7 +5,7 @@ import (
 	"time"
 
 	"github.com/herb-go/herb/cache/datastore"
-	"github.com/herb-go/herb/user"
+	"github.com/herb-go/user"
 )
 
 type testAccountProvider struct {

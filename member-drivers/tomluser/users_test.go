@@ -8,7 +8,7 @@ import (
 	"path"
 	"testing"
 
-	"github.com/herb-go/herb/user"
+	"github.com/herb-go/user"
 
 	"github.com/herb-go/herbsecurity/authorize/role"
 

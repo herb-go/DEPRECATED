@@ -3,7 +3,7 @@ package member
 import (
 	"github.com/herb-go/herb/cache"
 	"github.com/herb-go/herb/cache/datastore"
-	"github.com/herb-go/herb/user"
+	"github.com/herb-go/user"
 )
 
 //Accounts user accounts map.

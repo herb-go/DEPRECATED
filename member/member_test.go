@@ -13,7 +13,7 @@ import (
 
 	"github.com/herb-go/herb/cache"
 	"github.com/herb-go/herb/middleware"
-	"github.com/herb-go/herb/user"
+	"github.com/herb-go/user"
 
 	_ "github.com/herb-go/herb/cache/drivers/syncmapcache"
 	_ "github.com/herb-go/herb/cache/marshalers/msgpackmarshaler"

@@ -11,9 +11,9 @@ member 用户系统是一套基于 github.com/herb-go/herb 的用户系统。
 
 ## 依赖
 
-- github.com/herb-go/herb/user 基本用户模块
+- github.com/herb-go/usersystem/user 基本用户模块
 - github.com/herb-go/deprecated/httpuser HTTP 用户模块
-- github.com/herb-go/herb/user/role 用户权限
-- github.com/herb-go/herb/user/role/roleservice 权限服务模块
+- github.com/herb-go/user/role 用户权限
+- github.com/herb-go/user/role/roleservice 权限服务模块
 - github.com/herb-go/herb/cache 缓存
 - github.com/herb-go/session 会话模块

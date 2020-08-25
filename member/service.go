@@ -3,7 +3,7 @@ package member
 import (
 	"net/http"
 
-	"github.com/herb-go/herb/user/profile"
+	"github.com/herb-go/user/profile"
 
 	"github.com/herb-go/protecter"
 
@@ -13,7 +13,7 @@ import (
 
 	"github.com/herb-go/herb/cache"
 	"github.com/herb-go/herb/cache/datastore"
-	"github.com/herb-go/herb/user"
+	"github.com/herb-go/user"
 	"github.com/herb-go/deprecated/httpuser"
 	"github.com/herb-go/session"
 )

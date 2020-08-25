@@ -2,7 +2,7 @@ package member
 
 import (
 	"github.com/herb-go/herb/cache/datastore"
-	"github.com/herb-go/herb/user/profile"
+	"github.com/herb-go/user/profile"
 )
 
 //Profiles  user profiles map type
