@@ -5,7 +5,7 @@ import (
 
 	"github.com/herb-go/user/profile"
 
-	"github.com/herb-go/protecter"
+	"github.com/herb-go/herbmodules/protecter"
 
 	"github.com/herb-go/herbsecurity/authorize/role"
 

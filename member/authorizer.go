@@ -3,7 +3,7 @@ package member
 import (
 	"net/http"
 
-	"github.com/herb-go/protecter"
+	"github.com/herb-go/herbmodules/protecter"
 )
 
 //Authorizer comonets to Authorize  http request.
