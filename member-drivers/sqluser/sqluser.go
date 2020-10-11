@@ -11,9 +11,9 @@ import (
 	"crypto/rand"
 	"crypto/sha256"
 
-	"github.com/herb-go/herb/model/sql/db"
-	"github.com/herb-go/herb/model/sql/querybuilder"
-	"github.com/herb-go/herb/model/sql/querybuilder/modelmapper"
+	"github.com/herb-go/datasource/sql/db"
+	"github.com/herb-go/datasource/sql/querybuilder"
+	"github.com/herb-go/datasource/sql/querybuilder/modelmapper"
 	"github.com/herb-go/user"
 	"github.com/herb-go/deprecated/member"
 )

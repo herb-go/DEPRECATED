@@ -1,7 +1,7 @@
 package sqluser
 
 import (
-	"github.com/herb-go/herb/model/sql/db"
+	"github.com/herb-go/datasource/sql/db"
 	"github.com/herb-go/deprecated/member"
 	"github.com/herb-go/uniqueid"
 )

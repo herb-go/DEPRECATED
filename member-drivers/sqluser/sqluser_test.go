@@ -4,9 +4,9 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/herb-go/herb/model/sql/querybuilder"
+	"github.com/herb-go/datasource/sql/querybuilder"
 
-	"github.com/herb-go/herb/model/sql/db"
+	"github.com/herb-go/datasource/sql/db"
 	"github.com/herb-go/deprecated/member"
 
 	"github.com/herb-go/user"
