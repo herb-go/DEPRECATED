@@ -18,7 +18,7 @@ import (
 	_ "github.com/herb-go/herb/cache/drivers/syncmapcache"
 	_ "github.com/herb-go/herb/cache/marshalers/msgpackmarshaler"
 
-	"github.com/herb-go/session"
+	"github.com/herb-go/herbmodules/session"
 )
 
 var dataProfileKey = "profile"

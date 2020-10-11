@@ -2,7 +2,7 @@ package member
 
 import (
 	"github.com/herb-go/herb/cache"
-	"github.com/herb-go/session"
+	"github.com/herb-go/herbmodules/session"
 )
 
 //Option member service option interface
