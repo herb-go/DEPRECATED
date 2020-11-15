@@ -15,7 +15,7 @@ import (
 	"github.com/herb-go/deprecated/cache/datastore"
 	"github.com/herb-go/user"
 	"github.com/herb-go/deprecated/httpuser"
-	"github.com/herb-go/herbmodules/session"
+	"github.com/herb-go/deprecated/session"
 )
 
 const prefixCacheStatus = "S"
