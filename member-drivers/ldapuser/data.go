@@ -1,7 +1,7 @@
 package ldapuser
 
 import (
-	"github.com/herb-go/herb/cache/datastore"
+	"github.com/herb-go/deprecated/cache/datastore"
 )
 
 func profileCreateor() interface{} {

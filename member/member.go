@@ -1,7 +1,7 @@
 package member
 
 import (
-	"github.com/herb-go/herb/cache/datastore"
+	"github.com/herb-go/deprecated/cache/datastore"
 )
 
 //Members members stand for cached user data.

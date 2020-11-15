@@ -1,7 +1,7 @@
 package member
 
 import (
-	"github.com/herb-go/herb/cache"
+	"github.com/herb-go/deprecated/cache"
 	"github.com/herb-go/herbmodules/session"
 )
 

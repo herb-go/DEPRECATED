@@ -1,0 +1,23 @@
+package cachegroup_test
+
+var testConfig = `
+{
+		"Driver":"cachegroup",
+		"Marshaler": "json",
+		"Config":
+			[{
+				"Driver":"syncmapcache",
+				"Config":{
+					"Size": 10000000
+				},
+				"Marshaler": "json",
+				"TTL":3600
+			},{
+				"Driver":"syncmapcache",
+				"Config":{
+					"Size": 10000000
+				},
+				"Marshaler": "json",
+				"TTL":3600
+			}]
+}`

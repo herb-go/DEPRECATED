@@ -5,7 +5,7 @@ import (
 
 	"github.com/herb-go/herbconfig/loader"
 
-	"github.com/herb-go/herb/cache"
+	"github.com/herb-go/deprecated/cache"
 	_ "github.com/herb-go/herbconfig/loader/drivers/jsonconfig"
 	"github.com/herb-go/deprecated/member"
 	"github.com/herb-go/deprecated/member/drivers/membercache"

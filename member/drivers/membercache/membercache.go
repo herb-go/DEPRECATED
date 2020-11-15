@@ -3,7 +3,7 @@ package membercache
 import (
 	"errors"
 
-	"github.com/herb-go/herb/cache"
+	"github.com/herb-go/deprecated/cache"
 	"github.com/herb-go/deprecated/member"
 )
 
