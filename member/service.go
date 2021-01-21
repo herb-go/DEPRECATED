@@ -13,9 +13,9 @@ import (
 
 	"github.com/herb-go/deprecated/cache"
 	"github.com/herb-go/deprecated/cache/datastore"
-	"github.com/herb-go/user"
 	"github.com/herb-go/deprecated/httpuser"
 	"github.com/herb-go/deprecated/session"
+	"github.com/herb-go/user"
 )
 
 const prefixCacheStatus = "S"
@@ -297,7 +297,7 @@ func (s *Service) BannedMiddleware() func(w http.ResponseWriter, r *http.Request
 //RolesAuthorizeMiddleware return Authorize Middleware with roles as rule provider.
 //Middleware will check user banned status if banned status provider is installed.
 func (s *Service) RolesAuthorizeMiddleware(ruleNames ...string) func(w http.ResponseWriter, r *http.Request, next http.HandlerFunc) {
-	var rs = role.NewPlainRoles(ruleNames...)
+	var rs = role.New(ruleNames...)
 	return s.AuthorizeMiddleware(protecter.RolePolicyLoader(rs), nil)
 }
 

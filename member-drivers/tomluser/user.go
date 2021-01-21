@@ -4,8 +4,8 @@ import (
 	"math/rand"
 	"time"
 
-	"github.com/herb-go/user"
 	"github.com/herb-go/herbsecurity/authorize/role"
+	"github.com/herb-go/user"
 )
 
 var defaultUsersHashMode = "sha256"

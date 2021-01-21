@@ -3,8 +3,8 @@ package tomluser
 import (
 	"testing"
 
-	"github.com/herb-go/user"
 	"github.com/herb-go/herbsecurity/authorize/role"
+	"github.com/herb-go/user"
 )
 
 func TestUser(t *testing.T) {
@@ -23,7 +23,7 @@ func TestUser(t *testing.T) {
 	u2.Salt = "salt2"
 	u2.Accounts = []*user.Account{user.NewAccount()}
 	u2.Banned = true
-	u2.Roles = role.NewPlainRoles("role2")
+	u2.Roles = role.New("role2")
 	if u.UID == u2.UID ||
 		u.Password == u2.Password ||
 		u.HashMode == u2.HashMode ||

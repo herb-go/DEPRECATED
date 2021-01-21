@@ -345,7 +345,7 @@ func TestService(t *testing.T) {
 		t.Error(resp.StatusCode)
 	}
 	var roleprovider = service.RoleProvider.(*testRoleProvider)
-	(*roleprovider)[uid] = role.NewPlainRoles("role", "role2")
+	(*roleprovider)[uid] = role.New("role", "role2")
 
 	req, err = http.NewRequest("POST", s.URL+"/role", nil)
 	if err != nil {

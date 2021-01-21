@@ -165,11 +165,11 @@ func TestConfig(t *testing.T) {
 		panic(err)
 	}
 	uroles := rs.Get(u.UID)
-	ok, err = uroles.Authorize(role.NewPlainRoles("rolenotexists"))
+	ok, err = uroles.Authorize(role.New("rolenotexists"))
 	if ok == true || err != nil {
 		t.Fatal(ok, err)
 	}
-	ok, err = uroles.Authorize(role.NewPlainRoles("admin"))
+	ok, err = uroles.Authorize(role.New("admin"))
 	if ok == false || err != nil {
 		t.Fatal(ok, err)
 	}
