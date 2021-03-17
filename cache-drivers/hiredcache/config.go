@@ -2,7 +2,7 @@ package hiredcache
 
 import (
 	"github.com/herb-go/deprecated/cache"
-	"github.com/herb-go/herb-drivers/overseers/cacheoverseer"
+	"github.com/herb-go/deprecated/herb-drivers/overseers/cacheoverseer"
 	"github.com/herb-go/worker"
 )
 
